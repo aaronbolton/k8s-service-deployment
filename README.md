@@ -8,4 +8,5 @@ kubectl apply -f services.yaml
 
 also a busybox.yaml deployment for executing commands within the cluster
 
-e.g 
+e.g
+     kubectl exec busybox -- nslookup nginx
