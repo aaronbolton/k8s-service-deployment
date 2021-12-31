@@ -10,3 +10,4 @@ also a busybox.yaml deployment for executing commands within the cluster
 
 e.g
      kubectl exec busybox -- nslookup nginx
+     kubectl exec busybox -- <command goes here>
