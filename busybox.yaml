@@ -4,9 +4,9 @@ metadata
   name busybox
 spec
   containers
-  - image busybox1.28.4
-    command
-      - sleep
-      - 3600
-    name busybox
-  restartPolicy Always
+    - image busybox1.28.4
+      command
+        - sleep
+        - 3600
+      name busybox
+    restartPolicy Always
